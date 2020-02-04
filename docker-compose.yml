@@ -1,0 +1,22 @@
+version: '3'
+
+networks:
+  default:
+
+services:
+  networkpage:
+    container_name: networkpage
+    build: .
+    ports:
+      - 3000:3000
+    networks:
+      - default
+#    environment:
+#      MONGO_INITDB_ROOT_USERNAME: mongo
+#      MONGO_INITDB_ROOT_PASSWORD: absaiot123
+    environment:
+      - TZ=America/Mexico_City
+    restart: unless-stopped
+
+  
+

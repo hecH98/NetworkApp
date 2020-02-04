@@ -1,0 +1,167 @@
+.network {
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    margin-left: 0;
+    /* background-color: $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/heatmap_bg_test.svg);
+    background-size: cover;
+    color: #d8d9da; */
+/*   
+    & a {
+      color: #d8d9da !important;
+    }
+  
+    & .btn-submit {
+      @include buttonBackground(#a0f032, #a0f032);
+      border-radius: 20px;
+      width: 100%;
+      margin: 10px;
+    }
+  
+    & .btn-submit-disabled {
+      @include buttonBackground(#c1c1c1, #c1c1c1, $btn-inverse-text-color, $btn-inverse-text-shadow);
+      border-radius: 20px;
+      width: 100%;
+      margin: 10px;
+    } */
+}
+
+.network-button-group {
+    /* height: 70px; */
+    margin: 30px;
+}
+
+.logo-icon {
+  margin: 20px;
+  align-items: center;
+  width: max-content;
+}
+  
+.network-form {
+    /* margin-bottom: $space-md; */
+    width: 100%;
+    align-items: center;
+    height: 80px;
+    color: #000;
+}
+.network-form-wifi {
+    /* margin-bottom: $space-md; */
+    width: 100%;
+    align-items: center;
+    height: 90px;
+    color: #000;
+}
+
+.network-label {
+margin: 10px;
+}
+
+.network-form-buttons {
+    /* width: 20%; */
+    height: 50px;
+    align-items: center;
+    clear: both;
+    position: absolute;
+
+    /*& .network-buttons {
+        float: left;
+        width: 45%; //300px
+        // height: 40px;//100px
+    }
+
+    & .network-wifi {
+        // vertical-align: middle;
+        width: 45%;
+        float: right;
+    } */
+}
+
+.network-form-buttons > div {
+    float: right;
+    margin: 10px;
+}
+
+.network-alignment {
+    width: 50%;
+    border:1px solid red;
+    float: right;
+}
+
+.network-wifi-main{
+    position:absolute;
+    width: 300px;
+    /* height:240px; */
+    /* border:1px solid black; */
+    align-items: center;
+    /* padding:10px; */
+    clear: both;
+}
+
+.network-wifi-main > div{
+    /* float:right; */
+    margin:10px;
+}
+.d1{
+    width:30%;
+    /* height:200px; */
+    float: left;
+    /* border:1px solid red; */
+}
+.d2{
+    width:50%;
+    float: right;
+    /* height:200px; */
+    /* border:1px solid blue; */
+}
+
+.network-wifi {
+    width: 30%;
+    float: right;
+    /* border:1px solid blue; */
+}
+
+.network-wifi-search {
+    width: 10%;
+    float: left;
+    /* border:1px solid red; */
+}
+
+.network-label {
+    height: 15px;
+}
+
+.network-form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* margin-bottom: $space-md; */
+}
+
+.wifi-search-box {
+    min-width: 160px;
+  }
+
+.label-wifi {
+    margin-left: 140px;
+}
+
+.network-form-input {
+    /* // border: 1px solid $login-border;
+    // border-radius: 4px; */
+    height: 30px;
+    width: 300px;
+    /* // opacity: 0.6; */
+    color: #000;
+
+    /* &:focus {
+        border: 1px solid $login-border;
+    } */
+}
